@@ -12,4 +12,7 @@ public class NotificationConsumer{
         System.out.println("[FANOUT-NOTIFICATION] Order: " + event.getOrderId());
         System.out.println("[FANOUT-NOTIFICATION] Sending Email/SMS...");
     }
+    public void add(){
+        System.out.println("[FANOUT-NOTIFICATION] Adding Order...");
+    }
 }
