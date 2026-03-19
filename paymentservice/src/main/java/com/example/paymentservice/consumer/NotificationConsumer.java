@@ -15,4 +15,7 @@ public class NotificationConsumer{
     public void add(){
         System.out.println("[FANOUT-NOTIFICATION] Adding Order...");
     }
+    public void delete(){
+        System.out.println("[FANOUT-NOTIFICATION] Deleting Order...");
+    }
 }
